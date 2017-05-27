@@ -3,12 +3,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+    <meta name="description" content="Template Factory LLC - pine timber boards, palet boards, battens, paneling and pellet fuel produced by our subsidiaries in Ukraine">
+    <meta name="author" content="Template Factory LLC">
     <title>Hello World</title>
+    <link rel="stylesheet" type="text/css" href="./css/app.css">
 </head>
 <body>
-    <p>Hello World</p>
+    <h4>
+        @lang('index.offer_3_title')
+    </h4>
+    <p>
+        @lang('index.offer_3_text')
+    </p>
 </body>
 </html>

@@ -11,6 +11,7 @@ var gulp = require('gulp'),
 
 gulp.task('default', function() {
     return gulp.watch(assetsDir + '/sass/**/*.scss', function () {
+        console.log("[" + new Date().toUTCString() + "]. " + "Detected file changes. Running default tasks...");
         return gulp.src(assetsDir + '/sass/app.scss')
             .pipe(plumber())
             .pipe(sourcemaps.init())
