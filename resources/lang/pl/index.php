@@ -14,10 +14,11 @@ return [
 
     /*
     | ---------------------------------------
-    | Top-bar
+    | Global
     |---------------------------------------
     */
     "language" => "Language",
+    "page_title" => "Template Factory Sp. z o.o. - wyroby z drewna sosnowego, tarcica, deski paletowe, kantowki, produkowane przez nasze spolki spółki zależne na Ukrainie",
 
     /*
     | ---------------------------------------
@@ -33,7 +34,7 @@ return [
     | Hero Section with 3 advantages
     |---------------------------------------
     */
-    "hero_text" => "Template Factory Sp. z o.o. z siedzibą w Warszawie oferuje wyroby z drewna sosnowego, tarcica, deski paletowe, kantowki, produkowane przez nasze spolki spółki zależne na Ukrainie",
+    "hero_text" => "<em>Template Factory Sp. z o.o.</em> z siedzibą w Warszawie oferuje wyroby z drewna sosnowego, tarcica, deski paletowe, kantowki, produkowane przez nasze spolki spółki zależne na Ukrainie",
 
     "advantage_1_title" => "Wysoka Jakość Surowca",
     "advantage_1_text" => "Rozumiemy znaczenie jakości w przemyśle drzewnym, dlatego mamy ścisłe kontrole jakości	surowca, która pozwala oferować drewno wysokiej jakości",
@@ -77,26 +78,27 @@ return [
     "gallery_1_menu_item" => "Wszystkie",
     "gallery_2_menu_item" => "Deski",
     "gallery_3_menu_item" => "Deska Paletowa",
-    "gallery_4_menu_item" => "Palety",
-    "gallery_5_menu_item" => "Łaty i Kontrłaty",
-    "gallery_6_menu_item" => "Boazeria",
-    "gallery_7_menu_item" => "Pellet",
-    "gallery_8_menu_item" => "Surowiec Drzewny",
+    "gallery_4_menu_item" => "Łaty i Kontrłaty",
+    "gallery_5_menu_item" => "Boazeria",
+    "gallery_6_menu_item" => "Pellet",
+    "gallery_7_menu_item" => "Surowiec Drzewny",
     
     /*
     | ---------------------------------------
     | Contact Section
     |---------------------------------------
     */
-    "contact_text" => "Jesteś zainteresowany naszą ofertą? Daj nam znać używając poniższego formularza lub informacji kontaktowych",
+    "contact_text" => "<em>Jesteś zainteresowany naszą ofertą?</em> Daj nam znać używając poniższego formularza lub informacji kontaktowych",
     "contact_placeholder_name" => "Imię",
     "contact_placeholder_email" => "Poczta",
     "contact_placeholder_phone_number" => "Telefon Kontaktowy",
     "contact_placeholder_message" => "Wiadomość",
     "contact_button_send_text" => "Wyślij",
-
+    "contact_form_processing" => "Wysyłanie wiadomości...",
+    "contact_form_error" => "Proszę wypełnić wszystkie pola formularza",
+    "contact_form_success" => "Dziękujemy za wiadomość, wkrótce wrócimy do Ciebie",
     "contact_geolocation" => "Chalubinskiego 9/2, Warszawa, Polska",
-    "contact_email" => "kontakt@templatefactory.pl",
+    "contact_email" => "contact@templatefactory.pl",
     
     /*
     | ---------------------------------------
@@ -104,14 +106,12 @@ return [
     |---------------------------------------
     */
     "footer_subsection_1_title" => "Skontaktuj się z nami",
-    "footer_subsection_1_email" => "kontakt@templatefactory.pl",
     "footer_subsection_1_phone" => "+48-732007322",
     "footer_subsection_1_phone_alt" => "+38-0971941362",
-
     "footer_subsection_2_title" => "Dane Firmy",
     "footer_subsection_2_address" => "Adres Rejestracyjny: Chalubinskiego 9/2, Warszawa, Polska",
-    "footer_subsection_1_nip" => "Krajowy rejestr sądowy (KRS): 0000612205",
-    "footer_subsection_1_krs" => "Numer identyfikacji podatkowej (NIP): 7010568266"
+    "footer_subsection_2_nip" => "Krajowy rejestr sądowy (KRS): 0000612205",
+    "footer_subsection_2_krs" => "Numer identyfikacji podatkowej (NIP): 7010568266"
 
 
 ];

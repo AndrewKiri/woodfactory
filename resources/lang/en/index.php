@@ -14,10 +14,11 @@ return [
 
     /*
     | ---------------------------------------
-    | Top-bar
+    | Global
     |---------------------------------------
     */
     "language" => "Language",
+    "page_title" => "Template Factory LLC - pine timber boards, palet boards, battens, paneling and pellet fuel produced by our subsidiaries in Ukraine",
 
     /*
     | ---------------------------------------
@@ -33,7 +34,7 @@ return [
     | Hero Section with 3 advantages
     |---------------------------------------
     */
-    "hero_text" => "Template Factory LLC offers pine timber boards, palet boards, battens, paneling and pellet fuel produced by our subsidiaries in Ukraine",
+    "hero_text" => "<em>Template Factory LLC</em> offers pine timber boards, palet boards, battens, paneling and pellet fuel produced by our subsidiaries in Ukraine",
 
     "advantage_1_title" => "High Quality of Raw Materials",
     "advantage_1_text" => "We fully understand the importance of quality in the wood industry, that is why we have controls in place to guarantee the best quality product",
@@ -77,24 +78,25 @@ return [
     "gallery_1_menu_item" => "All",
     "gallery_2_menu_item" => "Boards",
     "gallery_3_menu_item" => "Pallet Boards",
-    "gallery_4_menu_item" => "Pallets",
-    "gallery_5_menu_item" => "Battens",
-    "gallery_6_menu_item" => "Paneling",
-    "gallery_7_menu_item" => "Pellet Fuel",
-    "gallery_8_menu_item" => "Raw Pine Logs",
+    "gallery_4_menu_item" => "Battens",
+    "gallery_5_menu_item" => "Paneling",
+    "gallery_6_menu_item" => "Pellet Fuel",
+    "gallery_7_menu_item" => "Raw Pine Logs",
     
     /*
     | ---------------------------------------
     | Contact Section
     |---------------------------------------
     */
-    "contact_text" => "Interested in our offer? Let us know using the form or the contact information below",
+    "contact_text" => "<em>Interested in our offer?</em> Let us know using the form or the contact information below",
     "contact_placeholder_name" => "Name",
     "contact_placeholder_email" => "Email",
     "contact_placeholder_phone_number" => "Phone Number",
     "contact_placeholder_message" => "Message",
     "contact_button_send_text" => "Send",
-
+    "contact_form_processing" => "Sending your message...",
+    "contact_form_error" => "Please, fill in the form fields",
+    "contact_form_success" => "Thank you for your message, we will get back to you soon",
     "contact_geolocation" => "Chalubinskiego 9/2, Warsaw, Poland",
     "contact_email" => "contact@templatefactory.pl",
     
@@ -104,14 +106,12 @@ return [
     |---------------------------------------
     */
     "footer_subsection_1_title" => "Contact Us",
-    "footer_subsection_1_email" => "contact@templatefactory_pl",
     "footer_subsection_1_phone" => "+48-732007322",
     "footer_subsection_1_phone_alt" => "+38-0971941362",
-
     "footer_subsection_2_title" => "Company Information",
     "footer_subsection_2_address" => "Registration address: Chalubinskiego 9/2, Warsaw, Poland",
-    "footer_subsection_1_nip" => "National Court Register (KRS): 0000612205",
-    "footer_subsection_1_krs" => "Taxpayer Identification Number (NIP): 7010568266"
+    "footer_subsection_2_nip" => "National Court Register (KRS): 0000612205",
+    "footer_subsection_2_krs" => "Taxpayer Identification Number (NIP): 7010568266"
 
 
 ];
