@@ -58,7 +58,7 @@ return [
     "offer_2_text" => "Unedged board made of 1st or 2nd grade quality pine wood logs_ The minimum thickness of the board - 14mm and the length ranges between 2 and 4 meters",
 
     "offer_3_title" => "Pallets and Pallet Boards",
-    "offer_3_text" => "Standard pallets made on EPAL compliant facilities with 800mm, 1200mm sides or pallet boards pre-cut for the production of specific type of pallets",
+    "offer_3_text" => "Standard pallets made on EPAL compliant facilities with 800 mm, 1200 mm sides or pallet boards pre-cut for the production of specific type of pallets",
 
     "offer_4_title" => "Pine Battens",
     "offer_4_text" => "Long strips of squared pine timber with dimensions being as follows: 32 × 32 mm up to 90 × 90 mm or 32 × 50 mm up to 75 × 150 mm",
@@ -67,7 +67,7 @@ return [
     "offer_5_text" => "Pine panels with 10-12% humidity, 4mm thickness and 80mm width",
 
     "offer_6_title" => "Pine Pellet Fuel",
-    "offer_6_text" => "Pellets made from compressed pine wood material packaged in 15kg bags or big-bags_ Diameter can be either 6mm or 8mm_ Priced 120 EUR/t EXW Rowno, Ukraine_",
+    "offer_6_text" => "Pellets made from compressed pine wood material packaged in 15kg bags or big-bags_ Diameter can be either 6mm or 8mm_ Priced 120 EUR/t EXW Rowno, Ukraine",
     
     /*
     | ---------------------------------------
@@ -96,7 +96,7 @@ return [
     "contact_button_send_text" => "Send",
 
     "contact_geolocation" => "Chalubinskiego 9/2, Warsaw, Poland",
-    "contact_email" => "contact@templatefactory_pl",
+    "contact_email" => "contact@templatefactory.pl",
     
     /*
     | ---------------------------------------

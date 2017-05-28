@@ -10,10 +10,7 @@
 </head>
 <body>
     <h4>
-        @lang('index.offer_3_title')
+        @lang('index.our_offer_section_text')
     </h4>
-    <p>
-        @lang('index.offer_3_text')
-    </p>
 </body>
 </html>
