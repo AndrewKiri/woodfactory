@@ -90,9 +90,16 @@
   		</div>
   		<!-- /.nav-bars-wrapper --> 
 
-      <div class="language-bar__button-container">
+      <div class="language-bar language-bar--mobile">
         <i class="fa fa-language" aria-hidden="true"></i>
-        Language
+        <ul>
+            <li>
+                <a href="/en">English</a>
+            </li>
+            <li>
+                <a href="/pl">Polski</a>
+            </li>
+        </ul>
       </div>
 	  </div>
 	  <!-- /.nav-header --> 
@@ -100,15 +107,34 @@
 	<!--/.container -->
 	<div class="navbar-collapse collapse">
 	  <div class="container">
-		<ul class="nav navbar-nav">
-		  <li><a class="nav-link" data-target-id="oferta" href=""> @lang('index.our_offer') </a></li>
-		  <li><a class="nav-link" data-target-id="galeria" href=""> @lang('index.gallery') </a></li>
-		  <li><a class="nav-link" data-target-id="kontakt" href=""> @lang('index.contact') </a></li>
-		</ul>
-    <div class="language-bar">
-      <a href="/pl">Polski</a>
-      <a href="/en">English</a>
-    </div>
+  		<ul class="nav navbar-nav">
+  		  <li><a class="nav-link" data-target-id="oferta" href=""> @lang('index.our_offer') </a></li>
+  		  <li><a class="nav-link" data-target-id="galeria" href=""> @lang('index.gallery') </a></li>
+  		  <li><a class="nav-link" data-target-id="kontakt" href=""> @lang('index.contact') </a></li>
+  		</ul>
+      <div class="language-bar  language-bar--desktop">
+        <i class="fa fa-language" aria-hidden="true"></i>
+        <span>
+          @php 
+            $locale = App::getLocale();
+          @endphp
+          @if($locale == 'en')
+            English
+          @else
+            Polski
+          @endif
+        </span>
+        <div class="language-bar--desktop__dropdown">
+          <ul>
+              <li>
+                  <a href="/en">English</a>
+              </li>
+              <li>
+                  <a href="/pl">Polski</a>
+              </li>
+          </ul>
+        </div>
+      </div>
 	  </div>
 	  <!--/.container --> 
 	</div>

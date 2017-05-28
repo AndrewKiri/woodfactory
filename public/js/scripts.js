@@ -918,4 +918,16 @@ $(document).ready(function() {
             }
         })
     })
+
+    /*-----------------------------------------------------------------------------------*/
+	/*	Language Bar
+	/*-----------------------------------------------------------------------------------*/
+    $('.language-bar--desktop').click(function (event) {
+        var element = $(event.currentTarget);
+        if (!element.hasClass('language-bar--desktop--active')) {
+            element.addClass('language-bar--desktop--active');
+        } else {
+            element.removeClass('language-bar--desktop--active');
+        }
+    });
 });

@@ -3855,4 +3855,49 @@ video::-webkit-media-controls {
   .section-title h2:after {
     display: none; } }
 
+.language-bar {
+  display: none; }
+  .language-bar ul li {
+    list-style-type: none; }
+  @media screen and (max-width: 767px) {
+    .language-bar--mobile {
+      display: block; } }
+  .language-bar--desktop {
+    float: right;
+    position: relative; }
+    @media screen and (min-width: 768px) {
+      .language-bar--desktop {
+        height: 54px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        cursor: pointer; } }
+    .language-bar--desktop span {
+      margin-left: 14px; }
+      .language-bar--desktop span:hover {
+        color: lightsteelblue; }
+    .language-bar--desktop__dropdown {
+      display: none;
+      position: absolute;
+      top: 54px;
+      background-color: #3F3F3F; }
+      .language-bar--desktop__dropdown ul {
+        padding: 0; }
+        .language-bar--desktop__dropdown ul li {
+          padding: 10px 26px; }
+          .language-bar--desktop__dropdown ul li a {
+            color: #fff; }
+            .language-bar--desktop__dropdown ul li a:hover {
+              background-color: rgba(63, 63, 63, 0.7);
+              color: lightsteelblue; }
+    .language-bar--desktop--active .language-bar--desktop__dropdown {
+      display: block; }
+
 /*# sourceMappingURL=app.css.map */
