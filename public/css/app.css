@@ -1608,7 +1608,8 @@ blockquote .small {
   font-weight: 500;
   letter-spacing: -0.5px;
   padding: 0;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
   margin-right: 40px;
   cursor: pointer;
   position: relative;
@@ -3859,13 +3860,13 @@ video::-webkit-media-controls {
   display: none; }
   .language-bar ul li {
     list-style-type: none; }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 992px) {
     .language-bar--mobile {
       display: block; } }
   .language-bar--desktop {
     float: right;
     position: relative; }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 993px) {
       .language-bar--desktop {
         height: 54px;
         display: -webkit-box;
@@ -3889,7 +3890,8 @@ video::-webkit-media-controls {
       top: 54px;
       background-color: #3F3F3F; }
       .language-bar--desktop__dropdown ul {
-        padding: 0; }
+        padding: 0;
+        margin: 0; }
         .language-bar--desktop__dropdown ul li {
           padding: 10px 26px; }
           .language-bar--desktop__dropdown ul li a {

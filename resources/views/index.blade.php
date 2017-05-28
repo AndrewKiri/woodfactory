@@ -115,14 +115,7 @@
       <div class="language-bar  language-bar--desktop">
         <i class="fa fa-language" aria-hidden="true"></i>
         <span>
-          @php 
-            $locale = App::getLocale();
-          @endphp
-          @if($locale == 'en')
-            English
-          @else
-            Polski
-          @endif
+         @lang('index.language')
         </span>
         <div class="language-bar--desktop__dropdown">
           <ul>
@@ -131,6 +124,9 @@
               </li>
               <li>
                   <a href="/pl">Polski</a>
+              </li>
+              <li>
+                <a href="/it">Italiano</a>
               </li>
           </ul>
         </div>

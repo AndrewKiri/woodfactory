@@ -18,7 +18,7 @@ return [
     |---------------------------------------
     */
     "language" => "Language",
-    "page_title" => "Template Factory LLC - pine timber boards, palet boards, battens, paneling and pellet fuel produced by our subsidiaries in Ukraine",
+    "page_title" => "Template Factory LLC - pine timber boards, pallet boards, battens, paneling and pellet fuel produced by our subsidiaries in Ukraine",
 
     /*
     | ---------------------------------------
@@ -34,7 +34,7 @@ return [
     | Hero Section with 3 advantages
     |---------------------------------------
     */
-    "hero_text" => "<em>Template Factory LLC</em> offers pine timber boards, palet boards, battens, paneling and pellet fuel produced by our subsidiaries in Ukraine",
+    "hero_text" => "<em>Template Factory LLC</em> offers pine timber boards, pallet boards, battens, paneling and pellet fuel produced by our subsidiaries in Ukraine",
 
     "advantage_1_title" => "High Quality of Raw Materials",
     "advantage_1_text" => "We fully understand the importance of quality in the wood industry, that is why we have controls in place to guarantee the best quality product",
@@ -42,7 +42,7 @@ return [
     "advantage_2_title" => "Precise Processing",
     "advantage_2_text" => "We possess the machinery, which allows us to offer products specifically tailored for clients' needs without the loss in quality",
 
-    "advantage_3_title" => "Long-term Stablity",
+    "advantage_3_title" => "Long-term Stability",
     "advantage_3_text" => "We recognize that our success is highly dependent on the success of our clients, who are in turn dependent upon the precision and timeliness of our order fulfillment",
     
     /*
@@ -53,10 +53,10 @@ return [
     "our_offer_section_text" => "We offer full consignment deliveries to EU member countries with a handling of customs clearance and tax payables in EU (VAT) or worldwide delivery of dried pine wood in containers",
 
     "offer_1_title" => "Edged board",
-    "offer_1_text" => "Edged board made of 1st or 2nd grade quality pine wood logs_ The minimum thickness of the board is 14mm and the length ranges between 2 and 4 meters",
+    "offer_1_text" => "Edged board made of 1st or 2nd grade quality pine wood logs. The minimum thickness of the board is 14mm and the length ranges between 2 and 4 meters",
 
     "offer_2_title" => "Unedged board",
-    "offer_2_text" => "Unedged board made of 1st or 2nd grade quality pine wood logs_ The minimum thickness of the board - 14mm and the length ranges between 2 and 4 meters",
+    "offer_2_text" => "Unedged board made of 1st or 2nd grade quality pine wood logs. The minimum thickness of the board - 14mm and the length ranges between 2 and 4 meters",
 
     "offer_3_title" => "Pallets and Pallet Boards",
     "offer_3_text" => "Standard pallets made on EPAL compliant facilities with 800 mm, 1200 mm sides or pallet boards pre-cut for the production of specific type of pallets",
@@ -68,7 +68,7 @@ return [
     "offer_5_text" => "Pine panels with 10-12% humidity, 4mm thickness and 80mm width",
 
     "offer_6_title" => "Pine Pellet Fuel",
-    "offer_6_text" => "Pellets made from compressed pine wood material packaged in 15kg bags or big-bags_ Diameter can be either 6mm or 8mm_ Priced 120 EUR/t EXW Rowno, Ukraine",
+    "offer_6_text" => "Pellets made from compressed pine wood material packaged in 15kg bags or big-bags. Diameter can be either 6mm or 8mm. Priced 120 EUR/t EXW Rowno, Ukraine",
     
     /*
     | ---------------------------------------

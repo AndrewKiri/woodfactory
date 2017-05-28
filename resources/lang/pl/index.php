@@ -17,7 +17,7 @@ return [
     | Global
     |---------------------------------------
     */
-    "language" => "Language",
+    "language" => "Język",
     "page_title" => "Template Factory Sp. z o.o. - wyroby z drewna sosnowego, tarcica, deski paletowe, kantowki, produkowane przez nasze spolki spółki zależne na Ukrainie",
 
     /*
