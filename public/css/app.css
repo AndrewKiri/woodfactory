@@ -1,11 +1,5 @@
 @charset "UTF-8";
 /*-------------------------------------------------------------------------------------
-Theme Name:	Morello
-Theme URI: 	http://themes.iki-bir.com/morello
-Version:	1.0.1
-Author:		elemis
--------------------------------------------------------------------------------------*/
-/*-------------------------------------------------------------------------------------
 [TABLE OF CONTENTS]
 
 	00. RESET
@@ -135,10 +129,10 @@ iframe {
 @keyframes rotation {
   from {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
+            transform: rotate(0deg); }
   to {
     -webkit-transform: rotate(359deg);
-    transform: rotate(359deg); } }
+            transform: rotate(359deg); } }
 
 #preloader {
   position: fixed;
@@ -198,18 +192,18 @@ body {
   height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column; }
+      -ms-flex-direction: column;
+          flex-direction: column; }
 
 .navbar,
 footer {
   -ms-flex-negative: 0;
-  flex-shrink: 0; }
+      flex-shrink: 0; }
 
 .content-wrapper {
   -webkit-box-flex: 1;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto; }
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto; }
 
 .container {
   padding-right: 0;
@@ -554,7 +548,7 @@ hr {
   padding-top: 80px;
   margin-bottom: 100px;
   -webkit-box-shadow: none;
-  box-shadow: none; }
+          box-shadow: none; }
 
 .blog.single hr {
   padding-top: 50px;
@@ -741,7 +735,7 @@ blockquote .small {
   -webkit-transition: all 150ms ease-in;
   transition: all 150ms ease-in;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   display: inline-block; }
 
 .btn i {
@@ -777,7 +771,7 @@ blockquote .small {
   -webkit-transition: all 150ms ease-in;
   transition: all 150ms ease-in;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   border-color: transparent; }
 
 .btn-border {
@@ -963,7 +957,7 @@ blockquote .small {
   height: auto;
   position: relative;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   margin: 0 !important;
   vertical-align: middle;
   display: table-cell;
@@ -978,7 +972,7 @@ blockquote .small {
 .navbar .navbar-collapse {
   border: 0;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   overflow: hidden; }
 
 .navbar .navbar-nav {
@@ -1021,7 +1015,7 @@ blockquote .small {
   background: none;
   border-radius: 0;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   z-index: -1 !important; }
 
 .navbar .dropdown-menu li:first-child {
@@ -1056,7 +1050,7 @@ blockquote .small {
 .navbar .dropdown-menu li a.active {
   padding: 0;
   -webkit-filter: none;
-  filter: none;
+          filter: none;
   line-height: 1; }
 
 .navbar .dropdown-menu li a:hover,
@@ -1159,7 +1153,7 @@ blockquote .small {
   width: 100%;
   background: rgba(255, 255, 255, 0.9);
   -webkit-box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.4); }
+          box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.4); }
 
 .navbar.extended.fixed .navbar-collapse {
   background: transparent; }
@@ -1228,7 +1222,7 @@ blockquote .small {
   -moz-appearance: none;
   appearance: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   border-radius: none;
   border: none;
   cursor: pointer;
@@ -1312,7 +1306,7 @@ blockquote .small {
   cursor: pointer;
   background: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   width: 40px;
   height: 40px;
   position: absolute;
@@ -1388,7 +1382,7 @@ blockquote .small {
 
 .boxshadow {
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2) !important;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2) !important; }
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2) !important; }
 
 .tp-dottedoverlay.darkoverlay {
   background: rgba(48, 48, 48, 0.6); }
@@ -2408,7 +2402,7 @@ figure a .overlay.icon .info span:before {
   border-left: 0;
   border-radius: 0;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   background: none;
   margin: 0; }
 
@@ -2429,7 +2423,7 @@ figure a .overlay.icon .info span:before {
   width: 100%;
   height: 100%;
   -webkit-box-sizing: content-box;
-  box-sizing: content-box;
+          box-sizing: content-box;
   border: 3px solid #7bc4e6 !important;
   z-index: 5;
   -webkit-transition: all 200ms ease-in;
@@ -2711,7 +2705,7 @@ footer .searchform {
 select {
   -webkit-appearance: none;
   -webkit-box-shadow: none !important;
-  box-shadow: none !important;
+          box-shadow: none !important;
   width: 100% !important;
   font-weight: 400; }
 
@@ -2755,7 +2749,7 @@ input[type="color"],
   resize: none;
   vertical-align: middle;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   -webkit-transition: all 150ms ease-in;
   transition: all 150ms ease-in; }
 
@@ -2779,7 +2773,7 @@ input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   border: 2px solid rgba(0, 0, 0, 0.15); }
 
 textarea {
@@ -3080,7 +3074,7 @@ video::-webkit-media-controls {
 .social li a i {
   background: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   border: 0;
   height: auto !important;
   width: auto;
@@ -3587,10 +3581,10 @@ video::-webkit-media-controls {
     width: 1270px;
     margin: 0 auto;
     -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2); }
+            box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2); }
   .box-layout footer.footer {
     -webkit-box-shadow: none;
-    box-shadow: none; }
+            box-shadow: none; }
   .box-layout footer.footer-bg2 {
     position: relative;
     z-index: 999; } }

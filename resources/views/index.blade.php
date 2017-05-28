@@ -57,37 +57,43 @@
   <div class="navbar navbar-default default extended" role=" ">
 	<div class="container">
 	  <div class="navbar-header">
-		<div class="social-wrapper text-left hidden">
-			<ul class="info text-right">
-				<li>National Court Register (KRS): 0000612205</li>
-				<li>Taxpayer Identification Number (NIP): 7010568266</li>
-			</ul>
-		  <!--/.social --> 
-		</div>
-		<!--/.social-wrapper -->
-		<div class="navbar-brand text-center">
-			<a href="index.html">
-				<img src="./images/tf_logo.svg" height="100px" alt="Template Factory"/>
-			</a>
-		</div>
-		<ul class="info text-left hidden">
-			<li>
-				<i class="ion-android-mail"></i>
-				<a href="mailto:hello@email.com" class="email-link">kontakt@templatefactory.pl</a>
-			</li>
-		  	<li>
-		  		<i class="ion-ios-telephone"></i>
-		  		<a class="header-phone" href="tel:+48732007322">+48-732007322</a>
-		  	</li>
-		</ul>
-		<!-- /.info -->
-		<div class="nav-bars-wrapper">
-		  <div class="nav-bars-inner">
-			<div class="nav-bars" data-toggle="collapse" data-target=".navbar-collapse"><span></span></div>
-		  </div>
-		  <!-- /.nav-bars-inner -->
-		</div>
-		<!-- /.nav-bars-wrapper --> 
+  		<div class="social-wrapper text-left hidden">
+  			<ul class="info text-right">
+  				<li>National Court Register (KRS): 0000612205</li>
+  				<li>Taxpayer Identification Number (NIP): 7010568266</li>
+  			</ul>
+  		  <!--/.social --> 
+  		</div>
+  		<!--/.social-wrapper -->
+  		<div class="navbar-brand text-center">
+  			<a href="/">
+  				<img src="./images/tf_logo.svg" height="100px" alt="Template Factory"/>
+  			</a>
+  		</div>
+  		<ul class="info text-left hidden">
+  			<li>
+  				<i class="ion-android-mail"></i>
+  				<a href="mailto:hello@email.com" class="email-link">kontakt@templatefactory.pl</a>
+  			</li>
+  		  	<li>
+  		  		<i class="ion-ios-telephone"></i>
+  		  		<a class="header-phone" href="tel:+48732007322">+48-732007322</a>
+  		  	</li>
+  		</ul>
+  		<!-- /.info -->
+
+  		<div class="nav-bars-wrapper">
+  		  <div class="nav-bars-inner">
+  			<div class="nav-bars" data-toggle="collapse" data-target=".navbar-collapse"><span></span></div>
+  		  </div>
+  		  <!-- /.nav-bars-inner -->
+  		</div>
+  		<!-- /.nav-bars-wrapper --> 
+
+      <div class="language-bar__button-container">
+        <i class="fa fa-language" aria-hidden="true"></i>
+        Language
+      </div>
 	  </div>
 	  <!-- /.nav-header --> 
 	</div>
@@ -99,9 +105,9 @@
 		  <li><a class="nav-link" data-target-id="galeria" href=""> @lang('index.gallery') </a></li>
 		  <li><a class="nav-link" data-target-id="kontakt" href=""> @lang('index.contact') </a></li>
 		</ul>
-    <div class="language-bar" style="display: none;">
-      <a href="index_pl.html">Polski</a>
-      <a href="index.html">English</a>
+    <div class="language-bar">
+      <a href="/pl">Polski</a>
+      <a href="/en">English</a>
     </div>
 	  </div>
 	  <!--/.container --> 

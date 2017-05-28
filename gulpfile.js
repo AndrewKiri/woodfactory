@@ -16,8 +16,8 @@ gulp.task('default', function() {
         return gulp.src(assetsDir + '/sass/app.scss')
             .pipe(plumber())
             .pipe(sourcemaps.init())
-            .pipe(autoprefixer())
             .pipe(sass().on('error', sass.logError))
+            .pipe(autoprefixer())
             .pipe(sourcemaps.write('/'))
             .pipe(plumber.stop())
             .pipe(gulp.dest(publicDir + '/css'));
