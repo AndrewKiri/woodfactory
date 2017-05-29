@@ -18,7 +18,7 @@ return [
     |---------------------------------------
     */
     "language" => "Język",
-    "page_title" => "Template Factory Sp. z o.o. - wyroby z drewna sosnowego, tarcica, deski paletowe, kantowki, produkowane przez nasze spolki spółki zależne na Ukrainie",
+    "page_title" => "Template Factory Sp. z o.o. - wyroby z drewna sosnowego, tarcica, deski paletowe, kantowki, produkowane przez nasze spółki zależne na Ukrainie",
 
     /*
     | ---------------------------------------
@@ -34,7 +34,7 @@ return [
     | Hero Section with 3 advantages
     |---------------------------------------
     */
-    "hero_text" => "<em>Template Factory Sp. z o.o.</em> z siedzibą w Warszawie oferuje wyroby z drewna sosnowego, tarcica, deski paletowe, kantowki, produkowane przez nasze spolki spółki zależne na Ukrainie",
+    "hero_text" => "<em>Template Factory Sp. z o.o.</em> z siedzibą w Warszawie oferuje wyroby z drewna sosnowego, tarcica, deski paletowe, kantowki, produkowane przez nasze spółki zależne na Ukrainie",
 
     "advantage_1_title" => "Wysoka Jakość Surowca",
     "advantage_1_text" => "Rozumiemy znaczenie jakości w przemyśle drzewnym, dlatego mamy ścisłe kontrole jakości	surowca, która pozwala oferować drewno wysokiej jakości",

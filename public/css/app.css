@@ -3887,17 +3887,17 @@ video::-webkit-media-controls {
     .language-bar--desktop__dropdown {
       display: none;
       position: absolute;
-      top: 54px;
-      background-color: #3F3F3F; }
+      top: 54px; }
       .language-bar--desktop__dropdown ul {
         padding: 0;
         margin: 0; }
         .language-bar--desktop__dropdown ul li {
-          padding: 10px 26px; }
+          padding: 12px 12px;
+          background-color: #3F3F3F; }
           .language-bar--desktop__dropdown ul li a {
+            padding: 12px 12px;
             color: #fff; }
             .language-bar--desktop__dropdown ul li a:hover {
-              background-color: rgba(63, 63, 63, 0.7);
               color: lightsteelblue; }
     .language-bar--desktop--active .language-bar--desktop__dropdown {
       display: block; }
