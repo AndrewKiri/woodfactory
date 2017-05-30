@@ -962,7 +962,9 @@ blockquote .small {
     box-shadow: none;
     margin: 0 !important;
     vertical-align: middle;
-    display: table-cell;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     width: 100%;
 }
 .navbar .nav-bars-wrapper {

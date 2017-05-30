@@ -960,7 +960,16 @@ blockquote .small {
           box-shadow: none;
   margin: 0 !important;
   vertical-align: middle;
-  display: table-cell;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%; }
 
 .navbar .nav-bars-wrapper {
@@ -3860,9 +3869,18 @@ video::-webkit-media-controls {
   display: none; }
   .language-bar ul li {
     list-style-type: none; }
+  @media screen and (max-width: 425px) {
+    .language-bar--mobile {
+      margin-left: 112px;
+      margin-right: 32px; } }
   @media screen and (max-width: 992px) {
     .language-bar--mobile {
       display: block; } }
+  .language-bar--mobile i {
+    font-size: 26px;
+    color: #000; }
+  .language-bar--mobile__dropdown {
+    display: none; }
   .language-bar--desktop {
     float: right;
     position: relative; }

@@ -66,9 +66,36 @@
   		</div>
   		<!--/.social-wrapper -->
   		<div class="navbar-brand text-center">
+        
   			<a href="/">
   				<img src="./images/tf_logo.svg" height="100px" alt="Template Factory"/>
   			</a>
+
+      <div class="language-bar  language-bar--mobile">
+        <i class="fa fa-language" aria-hidden="true"></i>
+        <div class="language-bar--mobile__dropdown">
+          <ul>
+              <li>
+                  <a href="/en">English</a>
+              </li>
+              <li>
+                  <a href="/pl">Polski</a>
+              </li>
+              <li>
+                <a href="/it">Italiano</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+
+        <div class="nav-bars-wrapper">
+          <div class="nav-bars-inner">
+          <div class="nav-bars" data-toggle="collapse" data-target=".navbar-collapse"><span></span></div>
+          </div>
+          <!-- /.nav-bars-inner -->
+        </div>
+        <!-- /.nav-bars-wrapper --> 
+
   		</div>
   		<ul class="info text-left hidden">
   			<li>
@@ -81,26 +108,6 @@
   		  	</li>
   		</ul>
   		<!-- /.info -->
-
-  		<div class="nav-bars-wrapper">
-  		  <div class="nav-bars-inner">
-  			<div class="nav-bars" data-toggle="collapse" data-target=".navbar-collapse"><span></span></div>
-  		  </div>
-  		  <!-- /.nav-bars-inner -->
-  		</div>
-  		<!-- /.nav-bars-wrapper --> 
-
-      <div class="language-bar language-bar--mobile">
-        <i class="fa fa-language" aria-hidden="true"></i>
-        <ul>
-            <li>
-                <a href="/en">English</a>
-            </li>
-            <li>
-                <a href="/pl">Polski</a>
-            </li>
-        </ul>
-      </div>
 	  </div>
 	  <!-- /.nav-header --> 
 	</div>
