@@ -8,10 +8,6 @@
   }
 
   &--mobile {
-    @media screen and (max-width: 425px) {
-      margin-left: 112px;
-      margin-right: 32px;
-    }
 	  @media screen and (max-width: 992px) {
 	    display: block;
 	  }

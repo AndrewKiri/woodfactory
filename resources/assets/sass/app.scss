@@ -964,6 +964,7 @@ blockquote .small {
     vertical-align: middle;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
 }
@@ -3658,9 +3659,6 @@ video::-webkit-media-controls {
 	}
 	.navbar-nav ul ul ul {
 	    padding-left: 5px !important
-	}
-	.navbar-nav ul ul li {
-
 	}
 	.navbar.extended .navbar-header {
 	    width: 100%;

@@ -84,6 +84,9 @@
               <li>
                 <a href="/it">Italiano</a>
               </li>
+              <li>
+                <a href="/de">Deutsch</a>
+              </li>
           </ul>
         </div>
       </div>
@@ -134,6 +137,9 @@
               </li>
               <li>
                 <a href="/it">Italiano</a>
+              </li>
+              <li>
+                <a href="/de">Deutsch</a>
               </li>
           </ul>
         </div>
@@ -868,9 +874,9 @@
 <script type="text/javascript" src="./revolution/js/extensions/revolution.extension.navigation.min.js"></script> 
 <script type="text/javascript" src="./revolution/js/extensions/revolution.extension.carousel.min.js"></script> 
 <script type="text/javascript" src="./revolution/js/extensions/revolution.extension.video.min.js"></script>  
-<script type="text/javascript" src="./js/plugins.js?v=0.5"></script> 
+<script type="text/javascript" src="./js/plugins.js?v=0.6"></script> 
 <script type="text/javascript" src="./js/jquery.scrollTo.min.js"></script> 
-<script type="text/javascript" src="./js/scripts.js?v=0.2"></script>
+<script type="text/javascript" src="./js/scripts.js?v=0.3"></script>
 <script>
       function initMap() {
         var myLatLng = {lat: 52.227125, lng: 21.001707};
