@@ -98,7 +98,7 @@ return [
     "contact_form_error" => "Bitte füllen Sie die Formularfelder aus",
     "contact_form_success" => "Vielen Dank für Ihre Nachricht, wir melden uns umgehend bei Ihnen",
     "contact_geolocation" => "Chalubinskiego 9/2, Warschau, Polen",
-    "contact_email" => "contact@templatefactory.pl",
+    "contact_email" => "contact@woodfactory.waw.pl",
     
     /*
     | ---------------------------------------

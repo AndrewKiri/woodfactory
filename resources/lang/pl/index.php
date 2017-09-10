@@ -98,7 +98,7 @@ return [
     "contact_form_error" => "Proszę wypełnić wszystkie pola formularza",
     "contact_form_success" => "Dziękujemy za wiadomość, wkrótce wrócimy do Ciebie",
     "contact_geolocation" => "Chalubinskiego 9/2, Warszawa, Polska",
-    "contact_email" => "contact@templatefactory.pl",
+    "contact_email" => "contact@woodfactory.waw.pl",
     
     /*
     | ---------------------------------------
