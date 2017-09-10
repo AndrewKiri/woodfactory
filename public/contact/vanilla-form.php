@@ -59,7 +59,7 @@ $vf_config = array(
      * E.g. Single recipient
      * 'emailSender' => 'john@domain.com',
      */
-    'emailSender' => 'contact@templatefactory.pl'
+    'emailSender' => 'contact@woodfactory.waw.pl'
     /*** /Code Snippet - quick-start ***/
 );
 $vfSender = new MailSender($vf_config);
@@ -82,11 +82,11 @@ switch ($vfSender->data['gender']) {
 }
 
 // Define here subject of the e-mail message
-$subject = 'templatefactory.pl - Contact Form Message';
+$subject = 'woodfactory.waw.pl - Contact Form Message';
 
 // Define here content of the e-mail message
 $content = "Hey,
-You've received new message from your website(templatefactory.pl). Check the details below:
+You've received new message from your website(woodfactory.waw.pl). Check the details below:
 
 Sender's IP address: ".Utils::getIp()."
 Name: {NAME}
