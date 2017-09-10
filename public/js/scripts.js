@@ -34,6 +34,7 @@ $(document).ready(function() {
     /*	ISOTOPE PORTFOLIO GRID
 	/*-----------------------------------------------------------------------------------*/
     var $portfoliogrid = $('.portfolio-grid .isotope');
+    //debugger;
     $portfoliogrid.isotope({
         itemSelector: '.item',
         transitionDuration: '0.7s',
