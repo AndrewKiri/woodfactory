@@ -1,0 +1,76 @@
+.language-bar {
+  // General styles for both language bars (mobile and desktop)
+  display: none;
+  ul {
+    li {
+      list-style-type: none;
+    }
+  }
+
+  &--mobile {
+    @media screen and (max-width: 425px) {
+      margin-left: 112px;
+      margin-right: 32px;
+    }
+	  @media screen and (max-width: 992px) {
+	    display: block;
+	  }
+
+    i {
+      font-size: 26px;
+      color: #000;
+    }
+
+    &__dropdown {
+      display: none;
+    }
+  }
+
+  &--desktop {
+    float: right;
+    position: relative;
+  	@media screen and (min-width: 993px) {
+      height: 54px;
+  		display: flex;
+      flex-direction: row;
+      align-items: center;
+      cursor: pointer;
+  	}
+
+    span {
+      margin-left: 14px;
+      &:hover {
+        color: lightsteelblue;
+      }
+    }
+
+    &__dropdown {
+      display: none;
+      position: absolute;
+      top: 54px;
+
+      ul {
+        padding: 0;
+        margin: 0;   
+        li {
+          padding: 12px 12px;
+          background-color: #3F3F3F;
+          a {
+            padding: 12px 12px;
+            color: #fff;
+            &:hover {
+              color: lightsteelblue;
+            }
+          }
+        }
+      }
+    }
+
+    &--active {
+      .language-bar--desktop__dropdown {
+        display: block;
+      }
+    }
+  }
+
+}
